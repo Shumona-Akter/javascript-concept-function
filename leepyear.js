@@ -8,4 +8,4 @@ function myLeapYear(year){
 }
 
 const myYear = myLeapYear(2010);
-console.log(myYear)
+console.log(myYear);
