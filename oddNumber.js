@@ -48,4 +48,15 @@ function oddMyNumber(number){
     return false
 }
 const OddMyNum = oddMyNumber(10)
-console.log(OddMyNum)
+console.log(OddMyNum);
+
+function oddNum(num){
+    const reminder = num% 2;
+    if ( reminder !== 0){
+        return true
+    }
+    return false
+}
+
+const khushisNumber = oddNum(200928457);
+console.log(khushisNumber)
