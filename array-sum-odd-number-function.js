@@ -12,4 +12,5 @@ function run(runs){
 
 
 const oddRun = run([30, 43, 60, 55, 71, 5, 100, 110, 123, 0, 17]);
-console.log(oddRun)
+console.log(oddRun);
+
