@@ -47,4 +47,4 @@ function shopping(items){
     return totalCost
 }
  const myShoppingItemsPrice = shopping([20, 35, 10, 20, 15, 15, 10, 25, 40, 10, 100, 20, 15, 25, 20]);
- console.log(myShoppingItemsPrice)
+ console.log(myShoppingItemsPrice);
