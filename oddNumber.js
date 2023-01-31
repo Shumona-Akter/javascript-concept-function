@@ -38,4 +38,14 @@ function odd(num2){
 }
 
 const myNum2 = odd(39);
-console.log(myNum2)
+console.log(myNum2);
+
+function oddMyNumber(number){
+    const reminder = number % 2;
+    if (reminder !== 0){
+        return true
+    }
+    return false
+}
+const OddMyNum = oddMyNumber(10)
+console.log(OddMyNum)
